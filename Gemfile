@@ -5,6 +5,8 @@ source "https://rubygems.org"
 # development dependencies will be added by default to the :development group.
 gemspec
 
+gem 'aqueduct', '~> 0.2.0.pre', github: 'remomueller/aqueduct', branch: '0.2.0'
+
 # jquery-rails is used by the dummy application
 gem "jquery-rails"
 
