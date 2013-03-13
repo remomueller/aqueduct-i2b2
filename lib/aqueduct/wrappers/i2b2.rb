@@ -7,6 +7,8 @@ require 'uri'
 require 'base64'
 require 'openssl'
 
+require 'builder'
+
 module Aqueduct
   module Wrappers
     class I2b2
