@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.summary     = "Connect to an instance of i2b2 through Aqueduct"
   s.description = "Connects to an instance of i2b2 through Aqueduct interface"
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["aqueduct-i2b2.gemspec", "CHANGELOG.rdoc", "LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["aqueduct-i2b2.gemspec", "CHANGELOG.md", "LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails",     "~> 3.2.1"
