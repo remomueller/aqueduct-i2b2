@@ -53,7 +53,7 @@ module Aqueduct
       end
 
       def count(query_concepts, conditions, tables, join_conditions, concept_to_count)
-        get_total_count(query_concepts.find_all_by_id(eval(conditions)))
+        get_total_count(query_concepts.where( id: eval(conditions) ))
       end
 
       def use_sql?
